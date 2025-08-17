@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes & Blog | Baker's Delight</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Baker's Delight Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="order.html">Order Online</a></li>
+                <li><a href="blog.html" class="active">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="background-image: url('images/blog-hero.jpg');">
+            <div class="hero-content">
+                <h1>Baker's Blog</h1>
+                <p>Recipes, tips & stories from our kitchen</p>
+            </div>
+        </section>
+
+        <section class="container py-4">
+            <div class="blog-intro text-center mb-4">
+                <h2>Our Favorite Recipes</h2>
+                <p>Try these delicious recipes using our bakery products as key ingredients</p>
+            </div>
+
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <img src="images/recipe-sourdough.jpg" alt="Homemade Sourdough">
+                    <div class="blog-content">
+                        <h3>Perfect Sourdough at Home</h3>
+                        <p class="meta">Posted on June 15, 2025 | Baking Tips</p>
+                        <p>Learn how to create bakery-quality sourdough bread in your own kitchen with our step-by-step guide...</p>
+                        <a href="#" class="btn btn-small">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <img src="images/recipe-croissant.jpg" alt="Croissant French Toast">
+                    <div class="blog-content">
+                        <h3>Croissant French Toast</h3>
+                        <p class="meta">Posted on May 28, 2025 | Recipes</p>
+                        <p>Transform day-old croissants into an indulgent breakfast with this simple recipe...</p>
+                        <a href="#" class="btn btn-small">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <img src="images/recipe-tart.jpg" alt="Seasonal Fruit Tart">
+                    <div class="blog-content">
+                        <h3>Seasonal Fruit Tart</h3>
+                        <p class="meta">Posted on April 10, 2025 | Seasonal</p>
+                        <p>Celebrate summer fruits with this stunning yet simple tart using our signature pastry...</p>
+                        <a href="#" class="btn btn-small">Read More</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <img src="images/recipe-bread-pudding.jpg" alt="Bread Pudding">
+                    <div class="blog-content">
+                        <h3>Classic Bread Pudding</h3>
+                        <p class="meta">Posted on March 22, 2025 | Recipes</p>
+                        <p>Don't waste stale bread! This comforting dessert comes together in minutes...</p>
+                        <a href="#" class="btn btn-small">Read More</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="newsletter mt-4">
+                <h3>Get More Recipes</h3>
+                <p>Subscribe to our newsletter for weekly baking inspiration</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; <span id="current-year"></span> Baker's Delight Artisan Bakery</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Newsletter subscription
+        document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thanks for subscribing! Check your email for our welcome message.');
+            this.reset();
+        });
+    </script>
+
+   <!-- blog.html -->
+<article class="recipe">
+    <img src="images/recipes/sourdough-recipe.jpg" alt="Sourdough Recipe">
+    <h3>Homemade Sourdough</h3>
+    <p>Our step-by-step guide to perfect sourdough at home</p>
+</article>
+ 
+</body>
+</html>

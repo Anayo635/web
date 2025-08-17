@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baker's Delight | Artisan Bakery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Baker's Delight Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="order.html">Order Online</a></li>
+                <li><a href="blog.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="background-image: url('images/bakery-hero.jpg');">
+            <div class="hero-content">
+                <h1>Authentic Artisan Bakery</h1>
+                <p>Traditional European baking since 2012</p>
+                <a href="products.html" class="btn">View Our Products</a>
+            </div>
+        </section>
+
+        <section class="container py-4">
+            <div class="text-center mb-2">
+                <h2>Our Signature Breads</h2>
+                <p>Handcrafted with natural ingredients and time-honored techniques</p>
+            </div>
+            
+            <div class="product-grid">
+                <!-- Filled by JavaScript -->
+            </div>
+        </section>
+
+        <section class="py-4" style="background-color: var(--secondary);">
+            <div class="container text-center">
+                <h2>Visit Our Bakery</h2>
+                <p>We're open Tuesday-Sunday from 7am to 5pm</p>
+                <a href="contact.html" class="btn mt-2">Location & Hours</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; <span id="current-year"></span> Baker's Delight Artisan Bakery</p>
+    </footer>
+
+    <!-- Add to hero section -->
+<div class="hero-content">
+    <h1>Artisan Bakery Since 2012</h1>
+    <p>Handcrafted with love using traditional methods</p>
+    <div class="floating">
+        <a href="products.html" class="btn">Explore Our Bakes</a>
+    </div>
+</div>
+
+<!-- Add signature product section -->
+<section class="signature-product">
+    <div class="container">
+        <div class="product-showcase">
+            <img src="images/signature-bread.png" alt="Our Signature Sourdough" class="floating">
+            <div class="product-details">
+                <h2>Our Famous Sourdough</h2>
+                <div class="ingredients">
+                    <span class="ingredient-tag">Organic flour</span>
+                    <span class="ingredient-tag">Sea salt</span>
+                    <span class="ingredient-tag">Natural starter</span>
+                    <span class="ingredient-tag">72h fermentation</span>
+                </div>
+                <a href="products.html#sourdough" class="btn">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- index.html -->
+<section class="hero" style="background-image: url('images/hero/home-hero.jpg');">
+    <div class="hero-content">
+        <h1>Authentic Artisan Bakery</h1>
+        <p>Traditional European baking since 2012</p>
+        <img src="images/icons/wheat-icon.png" alt="Wheat icon" class="hero-icon">
+    </div>
+</section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

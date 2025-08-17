@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products | Baker's Delight</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Baker's Delight Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="order.html">Order Online</a></li>
+                <li><a href="blog.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="background-image: url('images/products-hero.jpg');">
+            <div class="hero-content">
+                <h1>Our Bakery Selection</h1>
+                <p>Freshly baked daily with the finest ingredients</p>
+            </div>
+        </section>
+
+        <section class="container py-4">
+            <div class="product-categories">
+                <button class="category-btn active" data-category="all">All Products</button>
+                <button class="category-btn" data-category="bread">Breads</button>
+                <button class="category-btn" data-category="pastry">Pastries</button>
+                <button class="category-btn" data-category="dessert">Desserts</button>
+            </div>
+
+            <div class="products-container">
+                <!-- Filled by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; <span id="current-year"></span> Baker's Delight Artisan Bakery</p>
+    </footer>
+
+    <script src="js/products.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- products.html -->
+<div class="product-gallery">
+    <div class="product-card">
+        <img src="images/products/sourdough.jpg" alt="Sourdough Bread">
+        <h3>Traditional Sourdough</h3>
+        <p>48-hour fermented</p>
+    </div>
+    <div class="product-card">
+        <img src="images/products/croissant.jpg" alt="Butter Croissant">
+        <h3>Butter Croissant</h3>
+        <p>Hand-laminated</p>
+    </div>
+</div>
+
+</body>
+</html>

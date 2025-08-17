@@ -29,3 +29,5 @@ Our signature products include 72-hour fermented Country Sourdough, Pain au Choc
 Beyond our retail counter, we offer custom orders for weddings, birthdays, and corporate gifts, along with baking classes like monthly sourdough workshops and kids' cookie decorating. Our subscription programs including the Daily Bread Club and Patisserie Box bring our artisan creations straight to your doorstep.
 
 As instructed, I created this website to help people support Baker's Delight Artisan Bakery by showcasing their handmade breads and pastries. The design features an inviting layout that highlights their traditional baking methods, seasonal offerings, and online ordering system. This responsive website makes it easy for customers to explore products, sign up for baking classes, and place orders from any device  helping this local bakery connect with more dessert lovers and bread enthusists
+https://github.com/Anayo635/web/commit/63fcc4b35febfbcdce6daab7df02ba91d506ffc2#diff-d79d01c95151252b9cf68a44f59fac5e30c5dd71711ec18a94c9507cecbfa90a
+
